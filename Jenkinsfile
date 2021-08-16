@@ -14,6 +14,13 @@ pipeline {
             }
         }
         
+        stage("build"){
+            steps{
+                echo "build.sh!";
+            }
+        }
+        
+        
         stage('Last Step'){
             steps {
                 echo "Last step passed successfully!";
